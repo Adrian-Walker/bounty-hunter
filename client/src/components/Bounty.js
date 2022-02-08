@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import AddBountyForm from "./AddBountyForm.js"
 
+
 function Bounty(props) {
     //console.log(props)
     const { firstname, lastname, living, bounty, type, _id } = props
